@@ -98,3 +98,29 @@ pages.forEach((_, index) => {
       }, 500);
     }, (index + 1) * 200 + 2100);
   });
+
+
+  //send email button
+  function sendMessage(){
+    (function() {
+      emailjs.init({
+        publicKey: "5QEoCchB7iBKfmkY8",
+      });
+  })();
+    var serviceID = "service_um0kbco"; // Email Service 1D
+    var templateID = "template_x8y27ck"; // EmaiL Template ID
+    var params = {
+    sendername: document.querySelector("#name").value, 
+    senderemail: document.querySelector("#email").value, 
+    message: document.querySelector("#message").value,
+   };
+    emailjs.send(serviceID, templateID, params)
+    .then(
+      (response) => {
+        console.log('SUCCESS!', response.status, response.text);
+      },
+      (error) => {
+        console.log('FAILED...', error);
+      },
+    );
+  }

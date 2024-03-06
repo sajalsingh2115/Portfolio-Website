@@ -561,3 +561,53 @@ margin-bottom: .6rem;
       font-size: .8rem;
     }
   }
+  
+
+  /* @media screen and (min-width: 768px) {
+    
+    
+  } */
+  @media screen and (max-width: 768px) {
+    /* Add styles here for viewport width less than or equal to 768 pixels */
+    .services-content {
+      height: 155px;
+      width: 100%;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      text-align: center;
+    }
+    .services-content img {
+      position: relative;
+      width: 100%;
+      height: auto;
+    }
+
+
+
+    .skills-content .content span {
+      width: 5rem;
+      height: 5rem;
+      font-size: 2rem;
+    }
+    .portfolio-box .img-box {
+      height: 12rem;
+    }
+    .portfolio-box .info-box .info-title h3 {
+      font-size: 1.1rem;
+    }
+    .contact-box .field {
+      height: 3.5rem;
+      font-size: 1.1rem;
+    }
+    .back-profile {
+      width: 2.5rem;
+      height: 2.5rem;
+      font-size: 1rem;
+    }
+    .back-profile p {
+      font-size: .8rem;
+    }
+  }
+
+  
