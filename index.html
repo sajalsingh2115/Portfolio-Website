@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+    <!-- box icons -->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="cover cover-left"></div>
+      <div class="cover cover-right "></div>
+
+      <div class="book">
+        <!-- profile page -->
+        <div class="book-page page-left">
+          <div class="profile-page">
+            <img src="my photo.jpg" alt="" />
+            <h1>Sajal Singh</h1>
+            <h3>Web Developer</h3>
+
+            <div class="social-media">
+              <a href="https://www.facebook.com/" target="_blank"><i class="bx bxl-facebook"></i></a>
+              <a href="https://twitter.com/" target="_blank"><i class="bx bxl-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/sajal-singh-a900792a0/" target="_blank"><i class="bx bxl-linkedin"></i></a>
+              <a href="https://www.instagram.com/_sajal.singh_/?next=%2F&hl=en" target="_blank"><i class="bx bxl-instagram-alt"></i></a>
+            </div>
+
+            <p>
+              Hi, I'm Sajal Singh, Dynamic front-end developer with a passion for creating intuitive user interfaces and robust systems that ensure seamless experiences. Proficient in HTML, CSS, and JavaScript, with a strong willingness to learn and develop new skills. Eager to contribute to innovative web projects in a collaborative team environment
+            </p>
+
+            <div class="btn-box">
+              <a href="Sajal Singh-CV.pdf" download class="btn" target="_blank">Download CV</a>
+              <a href="#" class="btn contact-me">Contact Me</a>
+            </div>
+          </div>
+        </div>
+        <!-- page 1 & 2 -->
+        <div class="book-page page-right turn" id="turn-1">
+          <!-- page 1 (work experience) -->
+          <div class="page-front">
+            <h1 class="title">Work Experience</h1>
+            <h3>Internships:</h3>
+            <!-- <br> -->
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+               
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>November 2023-
+                  December2023</span
+                >
+                <h4>SystemTron</h4>
+
+                <p class="Internships-description">
+                  <ul>
+<li>
+
+  Experience in creating a CALCULATOR project and building a CONNECT 4 GAME.
+</li>
+<li>
+
+  Demonstrated ability to meet tight deadlines in a fast-paced environment.
+</li>
+                  </ul>
+                </p>
+              </div>
+              <!-- <br> -->
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>December 2023-
+                  January2023</span
+                >
+                <h4>Oasis Infobyte</h4>
+
+                <p class="Internships-description">
+                  <ul><li>
+                    Proficient in using HTML, CSS, JavaScript  to develop user-friendly WEB APPLICATIONS.
+                  </li>
+                  <li>Ability to work independently and collaboratively in a team environment.</li>
+                </ul>
+                  
+                </p>
+              </div>
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i>December 2023-
+                  January2023</span
+                >
+                <h4>Bharat Intern</h4>
+
+                <p class="Internships-description">
+                  <ul>
+
+<li>Actively participated in learning sessions to enhance technical skills and knowledge of web development technologies.</li>
+                  </ul>
+                 
+                  
+                </p>
+              </div>
+            </div>
+
+            <span class="number-page">1</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-1">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </div>
+          <!-- page 2(education) -->
+          <div class="page-back">
+            <h1 class="title">Education</h1>
+
+            <div class="workeduc-box">
+              <div class="workeduc-content">
+                <!-- <h3>Internships:</h3> -->
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i> 2021 - 2025</span
+                >
+                <h4>BTECH CSE</h4>
+                <h4>DIT University, Dehradun</h4>
+                <h4>Score: 6.99 CGPA</h4>
+
+                <!-- <p>Score: 6.48CGPA</p> -->
+              </div>
+              <!-- <br> -->
+
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i> 2020 - 2021</span
+                >
+                <h4>Intermediate (CBSE)</h4>
+                <h4>Happy Public School, Alwar</h4>
+                <h4>Percentage: 89%</h4>
+              </div>
+              <div class="workeduc-content">
+                <span class="year"
+                  ><i class="bx bxs-calendar"></i> 2018 - 2019</span
+                >
+                <h4>Matriculation (CBSE)</h4>
+                <h4>Chinar Public School, Alwar</h4>
+                <h4>Percentage: 83.7%</h4>
+              </div>
+            </div>
+            <span class="number-page">2</span>
+
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-1">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+          </div>
+        </div>
+        <!-- page 3 & 4 -->
+        <div class="book-page page-right turn " id="turn-2">
+          <!-- page 3(my services) -->
+          <div class="page-front">
+            <h1 class="title">My Certifications</h1>
+            <div class="services-box">
+              <div class="services-content">
+                <img src="cc1.jpg" alt="" height="150px" width="190px" />
+              </div>
+              <div class="services-content">
+                <img src="cc6.jpg" alt="" height="150px" width="190px" />
+              </div>
+              <div class="services-content">
+                <img src="cc3.jpg" alt="" height="150px" width="190px" />
+              </div>
+              <div class="services-content">
+                <img src="cc4.jpg" alt="" height="150px" width="190px" />
+              </div>
+              <div class="services-content">
+                <img src="cc7.jpg" alt="" height="125px" width="190px" />
+              </div>
+              <div class="services-content">
+                <img src="cc2.jpg" alt="" height="125px" width="190px" />
+              </div>
+            </div>
+
+            <span class="number-page"> 3</span>
+
+            <!-- next button -->
+            <span class="nextprev-btn" data-page="turn-2">
+              <i class="bx bx-chevron-right"></i>
+            </span>
+          </div>
+          <!-- page 4(my skills)  -->
+          <div class="page-back">
+            <h1 class="title">My Skills</h1>
+            <div class="skills-box">
+                <div class="skills-content">
+                    <!-- <h3>Front-End</h3> -->
+                    <div class="content">
+                     <span><i class='bx bxl-html5' ></i>HTML</span>
+                     <span><i class='bx bxl-css3' ></i>CSS</span>
+                     <span><i class='bx bxl-javascript' ></i>JS</span>
+                     <span><i class='bx bxl-git' ></i>Git</span>
+                     <span><i class='bx bxl-java' ></i>Java</span>
+                     <span><i class='bx bxl-java' ></i>OPPs</span>                   
+                     <span><i class='bx bxl-git' ></i>Git</span>
+                     <span><i class='bx bx-code' ></i>DSA</span>
+                     <span><i class='bx bxl-visual-studio' ></i>Visual Studio</span>
+                     <span><i class='bx bx-refresh' ></i>SDLC</span>
+                     
+                     
+            
+                     <!-- <span><i class='bx bxl-react' ></i>React</span> -->
+
+                    </div>
+                </div>
+                <!-- <div class="skills-content">
+                    <h3>Language</h3>
+                    <div class="content">
+                     <span><i class='bx bxl-java' ></i>Java</span>
+                    
+
+                    </div>
+                </div> -->
+                
+            </div>
+            <span class="number-page">4</span>
+
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-2">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+          </div>
+
+
+        </div>
+           
+
+
+         <!-- page 5 & 6 -->
+         <div class="book-page page-right turn " id="turn-3">
+          <!-- page 5(latest project or my Portfolio) -->
+       <div class="page-front">
+        <h1 class="title">Latest Project</h1>
+         <div class="portfolio-box">
+            <div class="img-box">
+                <img src="latest project.jpg" alt="">
+            </div>
+            
+
+            <div class="info-box">
+                <div class="info-title">
+                    <h3>Boom BOX</h3>
+                    <a href="https://sajalsingh2115.github.io/landing-page/" target="_blank">Live Preview<i class='bx bx-link-external' ></i></a>
+                </div>
+                <p>Tech Used: HTML, SCSS, CSS, JS</p>
+                <p>Welcome to Boom Box Headphones, where sound meets style and innovation. With a fusion of state-of-the-art technology and trendsetting design, we deliver premium sound quality. </p>
+             </div>
+    
+             <div class="btn-box">
+                <a href="https://github.com/sajalsingh2115/landing-page" class="btn" target="_blank">Source Code</a>
+                <a href="https://github.com/sajalsingh2115" class="btn" target="_blank">More Projects</a>
+             </div>
+         </div>
+
+         <span class="number-page"> 5</span>
+
+         <!-- next button -->
+         <span class="nextprev-btn" data-page="turn-3">
+           <i class="bx bx-chevron-right"></i>
+         </span>
+
+       </div>
+
+
+          <!-- page 6(contact me) -->
+          <div class="page-back">
+            <h1 class="title">Contact Me!</h1>
+            <div class="contact-box">
+                <form action="#">
+                    <input type="text" id="name" class="field" placeholder="Full Name" required>
+                    <input type="email" id="email" class="field" placeholder="Email Adderss" required>
+                    <textarea id="message" cols="30" rows="10"class="field" placeholder="Your Message" required></textarea>
+                    <button onclick="sendMessage();" class="btn" >Send Message</button>
+                </form>
+                
+            </div>
+            <span class="number-page">6</span>
+
+            <!-- prev button -->
+            <span class="nextprev-btn back" data-page="turn-3">
+              <i class="bx bx-chevron-left"></i>
+            </span>
+
+            <a href="#" class="back-profile">
+                <p>Profile</p>
+                <i class='bx bxs-user'></i>
+            </a>
+
+           </div>
+         </div>
+
+
+      </div>
+    </div>
+
+    <script src="script.js">
+        
+    </script>
+  </body>
+</html>
